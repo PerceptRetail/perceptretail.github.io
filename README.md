@@ -1,1 +1,1 @@
-# Welcome to Percept Retails's Developer Homepage
+# Welcome to Percept Retail's Developer Homepage
