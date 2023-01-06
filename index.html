@@ -12,7 +12,17 @@
             window.onload = function () {
                 // Begin Swagger UI call region
                 const ui = SwaggerUIBundle({
-                    url: "Itemlookup-OpenApi3.yaml", //Location of Open API spec in the repo
+                   // url: "Itemlookup-OpenApi3.yaml", //Location of Open API spec in the repo
+                    urls: [
+                        {
+                            name: "Itemlookup-OpenApi3-Alpha",
+                            url: "Itemlookup-OpenApi3.yaml",
+                        },
+                        {
+                            name: "Itemlookup-OpenApi3-Beta",
+                            url: "Itemlookup-OpenApi3.yaml",
+                        }
+                    ],                    
                     dom_id: '#swagger-ui',
                     deepLinking: true,
                     presets: [
