@@ -97,7 +97,7 @@ paths:
                 $ref: '#/components/schemas/ErrorResponse'                 
         default:
           description: Service is Unreachable
-    # Relative URL to external documentation            
+    # Relative URL to external documentation for reference          
     externalDocs:
       description: Learn more about user operations provided by this API
       url: /docs
